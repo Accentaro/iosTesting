@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "name": "iOS Testing",
+  "description": "Experimental iOS fixes for Declutter, Quoter and CollapsibleUI.",
+  "plugins": {
+    "dev.benjii.collapsible-ui": {
+      "name": "Collapsible UI (iOS Test)",
+      "description": "Collapse channel headers, the You bar and chat box with drag strips, and the guildbar with swipes.",
+      "author": "Benjii <463702169443368970>",
+      "icon": "SettingsIcon",
+      "channels": {
+        "latest": "1.0.5"
+      },
+      "versions": {
+        "1.0.5": {
+          "url": "https://accentaro.github.io/iosTesting/pool/dev.benjii.collapsible-ui@1.0.5.zip",
+          "sha256": "6b3b3bbe503b721c64229bc9af1d519464f14556af4da5caf75998c8d6ebaee2",
+          "size": 24640,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "dev.benjii.declutter": {
+      "name": "Declutter (iOS Test)",
+      "description": "Hide profile and channel clutter, and customize settings and long-press actions.",
+      "author": "Benjii <463702169443368970>",
+      "contributors": [
+        "kmmiio99o"
+      ],
+      "icon": "MagicWandIcon",
+      "channels": {
+        "latest": "1.0.5"
+      },
+      "versions": {
+        "1.0.5": {
+          "url": "https://accentaro.github.io/iosTesting/pool/dev.benjii.declutter@1.0.5.zip",
+          "sha256": "a3f49502345d522173f28105e2e131719b8fde249abfa88ca566f86d5a454cb4",
+          "size": 30421,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    },
+    "dev.benjii.quoter": {
+      "name": "Quoter (iOS Test)",
+      "description": "Create quote images from messages.",
+      "author": "Benjii <463702169443368970>",
+      "icon": "QuoteIcon",
+      "channels": {
+        "latest": "1.0.5"
+      },
+      "versions": {
+        "1.0.5": {
+          "url": "https://accentaro.github.io/iosTesting/pool/dev.benjii.quoter@1.0.5.zip",
+          "sha256": "371420f1aa939e6c6e512ae3ed57d44101cc2066d70975008cd64cc4f4f32e42",
+          "size": 38550,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
